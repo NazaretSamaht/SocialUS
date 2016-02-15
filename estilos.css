@@ -1,0 +1,32 @@
+
+html, body
+{ 
+	padding-bottom: 70px;
+	height: 100%;
+ }
+
+
+
+.fixed{
+	position: fixed;
+	padding-left: 0px;
+	padding-right: 60px;
+}
+
+.section{
+	height: 100%;
+}
+
+.img-big{
+	padding-top: 200px
+}
+
+.bar{
+	height: 50px;
+	width: auto;
+	background: #A0A0A0;
+	background: -webkit-linear-gradient(to bottom, #A0A0A0, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to bottom, #A0A0A0, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to bottom, #A0A0A0, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, #A0A0A0, white); /* Standard syntax */
+}
