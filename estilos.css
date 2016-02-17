@@ -1,32 +1,77 @@
 
-html, body
+html, body, .viewport
 { 
-	padding-bottom: 70px;
+
 	height: 100%;
+	font-family: 'Raleway', sans-serif;
  }
 
+.viewport{
+	position:relative;
+}
+
+.middle{
+	display: flex;
+	align-items: center;
+}
 
 
 .fixed{
 	position: fixed;
-	padding-left: 0px;
-	padding-right: 60px;
+
+}
+.social{
+	left:0%;
+}
+.us{
+	right: 0%;
+}
+.us, .social{
+	top: 30%	
 }
 
-.section{
-	height: 100%;
+.button{
+	background-color: #000000;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
 }
 
-.img-big{
-	padding-top: 200px
+.button:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #000000;
+	color: #fff;
 }
 
-.bar{
+.font-float{
+	float: left;
+	font-size: 5.0em;
+}
+
+.sp-float{
+	padding-left: 9%;
+	font-size: 15.0em;
+	padding-top: 4%;
+}
+
+.sp-container{
+	position: relative;
+	display: inline-flex;
+}
+
+.pr-general{
+	font-size: 1.75em;
+}
+
+.gradiant-bar{
 	height: 50px;
 	width: auto;
 	background: #A0A0A0;
-	background: -webkit-linear-gradient(to bottom, #A0A0A0, white); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(to bottom, #A0A0A0, white); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(to bottom, #A0A0A0, white); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom, #A0A0A0, white); /* Standard syntax */
+	background: -webkit-linear-gradient(to bottom, #A0A0A0, white); 
+	background: -o-linear-gradient(to bottom, #A0A0A0, white); 
+	background: -moz-linear-gradient(to bottom, #A0A0A0, white); 
+	background: linear-gradient(to bottom, #A0A0A0, white);
 }
