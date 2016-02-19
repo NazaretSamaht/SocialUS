@@ -27,7 +27,8 @@ html, body, .viewport
 	right: 0%;
 }
 .us, .social{
-	top: 30%	
+	top: 30%;
+	z-index:100;
 }
 
 .button{
@@ -37,8 +38,6 @@ html, body, .viewport
 	border-radius: 1.0em;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    padding-right: 4%;
-    padding-left: 4%;
 }
 
 .button:hover{
@@ -47,10 +46,11 @@ html, body, .viewport
 	color: #fff;
 }
 
-.images{
-	display: block;
-	width: 100%;
-	height:auto;
+.paragraph{
+	padding-left: 2%;
+	font-size: 1.5em;
+	padding-top: 15%;
+
 }
 
 .gradiant-bar{
@@ -65,6 +65,81 @@ html, body, .viewport
 	margin-bottom: 5%;
 }
 
-.sp-button{
+.help-button{
 	padding-top: 10%;
+}
+
+.help-button a{
+	padding-right: 4%;
+    padding-left: 4%;
+}
+
+.get-button{
+	z-index:100;
+	position: absolute;
+	padding-top: 53%;
+	padding-left: 75%;
+}
+
+.get-button a{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.sp-images{
+	width: 70%;
+
+}
+
+.font-services{
+	font-size: 1.5em;
+}
+
+.sp-choose{
+	width: 80%;
+	float: right;
+	
+}
+
+.choose{
+	z-index: 100;
+	position: absolute;
+}
+
+.sp-text{
+	width: 50%;
+}
+
+.cite{
+	float: right;
+	padding-top: 10%;
+}
+
+.sp-paragraph{
+	padding-top: 5%;
+}
+
+.img-company{
+	float: left;
+	clear: both;
+}
+
+.image-button{
+	background-color: #fff;
+	font-size: 2.2em;
+	border-radius: 1.0em;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-color: #eee;
+    padding: 10%;
+}
+
+.image-button:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #fff;
+	border-color: #eee;
+}
+
+.container-button{
+	padding: 5%;
 }
