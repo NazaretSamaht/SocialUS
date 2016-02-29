@@ -19,6 +19,7 @@ $(document).ready(function(){
 		var elements=$('.social, .us');
 	    if (win.scrollTop() >= pos){
 	     	elements.removeClass('hidden').addClass('fixed');
+	     	
 	     	sr.reveal('.social, .us', spreveal);
 	    }
 	    else {
