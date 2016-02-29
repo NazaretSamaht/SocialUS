@@ -47,7 +47,11 @@ html, body, .viewport
 	z-index:100;
 }
 
-.button{
+.button,
+.button:visited,
+.button:active,
+.button:active:visited,
+.button:focus{
 	background-color: #000000;
 	color: #fff;
 	font-size: 20px;
@@ -56,11 +60,7 @@ html, body, .viewport
     transition-duration: 0.4s;
 }
 
-.button:hover, 
-.button:focus,
-.button:active,
-.button:visited,
-.button:active:visited{
+.button:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
 	background-color: #000000;
 	color: #fff;
@@ -169,7 +169,11 @@ html, body, .viewport
 
 
 
-.image-button{
+.image-button, 
+.image-button:visited,
+.image-button:focus,
+.image-button:active,
+.image-button:active:visited{
 	background-color: #fff;
 	font-size: 2.2em;
 	border-radius: 1.0em;
@@ -184,6 +188,8 @@ html, body, .viewport
 	background-color: #fff;
 	border-color: #eee;
 }
+
+
 
 .container-button{
 	padding: 5%;
