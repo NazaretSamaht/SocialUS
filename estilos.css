@@ -4,6 +4,22 @@ html, body, .viewport
 
 	height: 100%;
 	font-family: 'Raleway', sans-serif;
+	/*font-weight:400;
+	font-style:normal;*/
+ }
+
+ .ra-800{
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-style: normal;
+
+ }
+
+ .ra-600{
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-style: normal;
+
  }
 
 .viewport{
@@ -34,33 +50,78 @@ html, body, .viewport
 .button{
 	background-color: #000000;
 	color: #fff;
-	font-size: 2.2em;
+	font-size: 20px;
 	border-radius: 1.0em;
-	-webkit-transition-duration: 0.4s; /* Safari */
+	-webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
 
 .button:hover{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
 	background-color: #000000;
 	color: #fff;
 }
 
+.button:active{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
+	background-color: #000000;
+	color: #fff;
+}
+
+.button:visited{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
+	background-color: #000000;
+	color: #fff;
+}
+
+.button:focus{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
+	background-color: #000000;
+	color: #fff;
+}
+
+
+/*
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}*/
+
+/**/
+
 .paragraph{
 	padding-left: 2%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	padding-top: 15%;
 
 }
 
 .gradiant-bar{
-	height: 50px;
+	height: 25px;
 	width: auto;
-	background: #A0A0A0;
-	background: -webkit-linear-gradient(to bottom, #A0A0A0, white); 
+	background: white;
+	/*background: -webkit-linear-gradient(to bottom, #A0A0A0, white); 
 	background: -o-linear-gradient(to bottom, #A0A0A0, white); 
 	background: -moz-linear-gradient(to bottom, #A0A0A0, white); 
-	background: linear-gradient(to bottom, #A0A0A0, white);
+	background: linear-gradient(to bottom, #A0A0A0, white);*/
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -92,7 +153,7 @@ html, body, .viewport
 }
 
 .font-services{
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 .sp-choose{
@@ -119,10 +180,7 @@ html, body, .viewport
 	padding-top: 5%;
 }
 
-.img-company{
-	float: left;
-	clear: both;
-}
+
 
 .image-button{
 	background-color: #fff;
@@ -142,4 +200,24 @@ html, body, .viewport
 
 .container-button{
 	padding: 5%;
+}
+
+.divReveal{
+	visibility: hidden;
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.show{
+	opacity: 1;
+}
+
+.per-row{
+	height:50%;
+}
+
+.per-row div{
+	height:100%;
 }
