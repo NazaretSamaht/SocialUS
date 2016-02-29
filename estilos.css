@@ -56,29 +56,16 @@ html, body, .viewport
     transition-duration: 0.4s;
 }
 
-.button:hover{
+.button:hover, 
+.button:focus,
+.button:active,
+.button:visited,
+.button:active:visited{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
 	background-color: #000000;
 	color: #fff;
 }
 
-.button:active{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
-	background-color: #000000;
-	color: #fff;
-}
-
-.button:visited{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
-	background-color: #000000;
-	color: #fff;
-}
-
-.button:focus{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 #7B7B78;
-	background-color: #000000;
-	color: #fff;
-}
 
 
 /*
@@ -207,7 +194,7 @@ html, body, .viewport
 }
 
 .hidden{
-	opacity: 0;
+	visibility: hidden;
 }
 
 .show{
