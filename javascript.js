@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$("html").niceScroll();
 	$(window).scrollTop(0);
 	var spreveal= {
 		duration: 1000,
