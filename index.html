@@ -10,7 +10,10 @@
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:bold' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,800' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.12.1.min.js"></script>
+
+    <script src="javascript.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,64 +26,259 @@
 
     <div class=" viewport"> 
       
-      <div class="container viewport middle">
+      <div class="container viewport middle first-div">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 ">
             <img src="Boceto/principal.png" class="img-responsive">
           </div>
         </div>
       </div>
 
       <div class="gradiant-bar"></div>
-
-      <div class="container viewport middle">
-        <div class="fixed social"><img src="Boceto/iconos_sociales.png" class="img-responsive"></div>
-        <div class="fixed us"><img src="Boceto/icono_us.png" class="img-        responsive"></div>
+      
+      <div class="container viewport middle other-div">
+        <div class="fixed social hidden">
+          <img src="Boceto/iconos_sociales.png" class="img-responsive">
+        </div>
+        <div class="fixed us hidden">
+          <img src="Boceto/icono_us.png" class="img-responsive">
+        </div>
         <div class="col-md-6 text-center">
-          <div class="row text-center sp-container">
-            <div class="font-float">
-              <div class="row">Startup</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Owner</strong></div>
-            </div>
-            <div class="font-float sp-float">?</div>
-          </div>
-          <div class="row text-left pr-general Raleway-normal-400">
-            <p>The most affordable, dynamic and effective digital marketing agency</p>
+          <div class="row">
+            <div class="row"><img src="images/startup.png" class="img-responsive"></div>
+            <div class="row text-left paragraph">
+              <p>The most affordable, dynamic and effective digital marketing agency</p>
               </br>
-              <div class="row">
-                <ul>
-                  <li><p>We got you! We believe that times is money</p></li>
-                  <li><p>Great team for a great Idea</p></li>
-                  <li><p>The most cost efficient services in the market</p></li>
-                </ul>
-              </div>
+              <ul>
+                <li><p>We got you! We believe that times is money</p></li>
+                <li><p>Great team for a great Idea</p></li>
+                <li><p>The most cost efficient services in the market</p></li>
+              </ul>
+            </div>
           </div>
-          <div class="row text-center">
+          <div class="row text-center help-button">
             <a class="btn btn-default button" href="#" role="button"><strong>HOW CAN WE HELP YOU?</strong></a>
           </div>
         </div>
-        <div class="col-md-6 text-center"></div>
+        <div class="col-md-6 text-center">
+          <img src="Boceto/animacion_1.png" class="img-responsive images">
+        </div>
+      </div>
+      <div class="gradiant-bar"></div>
+      <div class="container viewport middle center-block">
+        
+        <div class="col-md-12">
+          <div class="get-button">
+            <a class="btn btn-default button" href="#" role="button"><strong>GET IT NOW</strong></a>
+          </div>
+          <img src="Boceto/animacion_2.png" class="img-responsive">
+        </div>
+      </div>
+      <div class="gradiant-bar"></div>
+      <div class="container viewport middle font-services">
+        <div class="col-md-4 text-center">
+          <div class="row">
+            <img src="Boceto/animacion_6.png" class="img-responsive sp-images center-block"></br>
+            <p><span class="ra-800">Brand</span></br><span class="ra-600">Identity</span></p>
+            <img src="Boceto/animacion_7.png" class="img-responsive sp-images center-block"></br>
+            <p><span class="ra-800">Social Media</span></br><span class="ra-600">Management</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row"><img src="images/our_services.png" class="img-responsive"></div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="row">
+            <img src="Boceto/animacion_8.png" class="img-responsive sp-images center-block"></br>
+            <p><span class="ra-800">Premium</span></br><span class="ra-600">Web Design</span></p>
+            <img src="Boceto/animacion_9.png" class="img-responsive sp-images center-block"></br>
+            <p><span class="ra-800">Startup Development</span></br><span class="ra-600">Package</span></p>
+          </div>
+        </div>
       </div>
       <div class="gradiant-bar"></div>
       <div class="container viewport middle">
-        <div class="col-md-6 text-center"></div>
-        <div class="col-md-6 text-center"></div>
+        <div class="col-md-6 center-block">
+          <img src="Boceto/animacion_6.png" class="img-responsive sp-images center-block">
+          <div class="row text-center help-button">
+            <a class="btn btn-default button" href="#" role="button"><span class="ra-800">DESIGN FOR ME</span></a>
+          </div>
+        </div>
+        <div class="col-md-6 text-left font-services">
+          <p><h1><span class="ra-800">Brand</span></br><span class="ra-600">Identity</span></h1></br><h3>$<strong>1500</strong></h3></p></br>
+          <p>Picture your brand as the face and soul of your
+              company, that is why it is imperative to be
+              create the ideal identity that will describe in
+              detail what your brand is all about. Our team
+              of experts will download the ideas from your
+              brain to come of with the perfect image that
+              will get stock in your clients minds.
+            </p>
+            <p>Our service include:</p>
+            <ul>
+              <li><p>Brand Manual</p></li>
+              <li><p>Logo Design</p></li>
+              <li><p>Business Cards and creative stationery design</p></li>
+              <li><p>Facebook Cover</p></li>
+            </ul>
+        </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle"></div>
+      <div class="container viewport middle">
+        <div class="col-md-6 center-block">
+          <img src="Boceto/animacion_7.png" class="img-responsive sp-images center-block">
+          <div class="row text-center help-button">
+            <a class="btn btn-default button" href="#" role="button"><strong>POST FOR ME</strong></a>
+          </div>
+        </div>
+        <div class="col-md-6 text-left font-services">
+          <p><h1><strong>Social Media</strong></br>Management</h1></br>$350 /month</p></br>
+          <p>Social media help your business be more successful,
+              increasing your brand recognition
+              and with our help saving you time and money.
+              By using Social Media a brand or organization
+              can communicate every day making the messages
+              more relevant for it’s followers or fans.
+              We will curate your content and handle Facebook,
+              Twitter and Instagram for you establishing
+              your brand as a reference in the industry.
+            </p>
+        </div>
+      </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle"></div>
+      <div class="container viewport middle">
+        <div class="col-md-6 center-block">
+          <img src="Boceto/animacion_8.png" class="img-responsive sp-images center-block">
+          <div class="row text-center help-button">
+            <a class="btn btn-default button" href="#" role="button"><strong>CREATE FOR ME</strong></a>
+          </div>
+        </div>
+        <div class="col-md-6 text-left font-services">
+          <p><h1><strong>Premium</strong></br>Web Design</h1></br>Free *</p></br>
+          <p>You know that in order to have a successful
+              business nowadays it is extremely important
+              to count with a outstanding web presence.
+              Our team strive to create mind blowing sites
+              that direct viewers to the most vital information,
+              giving them what they want. We will develop
+              for you an unique and impacting website
+              guaranteeing an amazing and dynamic
+              customer experience in every device. The
+              best of all, is that we do it for Free.*
+            </p>
+            <p>*Up to 4 pages, with social media management annual contract.</p>
+        </div>
+      </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle"></div>
+      <div class="container viewport middle">
+        <div class="col-md-6 center-block">
+          <img src="Boceto/animacion_9.png" class="img-responsive sp-images center-block">
+          <div class="row text-center help-button">
+            <a class="btn btn-default button" href="#" role="button"><strong>DEVELOP FOR ME</strong></a>
+          </div>
+        </div>
+        <div class="col-md-6 text-left font-services">
+          <p><h1><strong>Startup Development</strong></br>package</h1></br>Starting from $3000</p></br>
+          <p>Stock with an Idea?, let's make it a reality!</p>
+            <p>Our goal is to assist you in any possible manner to make you a successful entrepreneur.</p>
+            <p>For that reason we decided to combine and
+              offer all our services in one integrated package
+              designed to suit your budget. This package will
+              include:
+            </p>
+            <ul>
+              <li>Brand Identity</li>
+              <li>Web Design</li>
+              <li>Social Media Management</li>
+              <li>And a guaranteeed hand to hand guidance from our marketing specialists team</li>
+            </ul>
+        </div>
+      </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle"></div>
+      <div class="container viewport font-services">
+        <div class="col-md-12 choose">
+          <div class="sp-text">
+            <img src="images/choose.png" class="img-responsive">
+            <p class="sp-paragraph">
+              We are a digital marketing agency; we innovate to
+              help others become more social, and with it a more
+              successful business. We accomplish that goal
+              through the development of unique but exciting
+              strategies in the digital world. The way The Social Us
+              prepares proposals is by linking what the spirit of the
+              Brand and the reality of the business will be.
+            </p>
+          </div>
+          <div class="sp-text cite">
+            <p>
+              “Ideas are nothing but a dream. As a marketing
+              agency, The Social Us will put the
+              ideal minds to successfully accomplish
+              that dream”
+            </p>
+            <footer><cite title="Source Title">CEO</cite></footer>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <img src="Boceto/animacion_4.png" class="img-responsive sp-choose">
+        </div> 
+      </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle"></div>
-      <div class="gradiant-bar"></div>
-      <div class="container viewport middle"></div>
+      <div class="container viewport middle">
+        <div class="col-md-12">
+          <div class="row per-row">
+            <div class="col-md-6">
+              <div class="row text-center container-button">
+                <a class="btn btn-default image-button" href="#" role="button">
+                  <img src="images/dsplace.png" class="img-responsive img-company">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row text-center container-button">
+                <a class="btn btn-default image-button" href="#" role="button">
+                  <img src="images/medica.png" class="img-responsive img-company">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row per-row">
+            <div class="col-md-6">
+              <div class="row text-center container-button">
+                <a class="btn btn-default image-button" href="#" role="button">
+                  <img src="images/pasonga.png" class="img-responsive img-company">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row text-center container-button">
+                <a class="btn btn-default image-button" href="#" role="button">
+                  <img src="images/inspira.png" class="img-responsive img-company">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>   
+      
     </div>
+    <div class="gradiant-bar"></div>
+    <div class="container viewport middle">
+      <div class="col-md-6 center-block">
+          <img src="Boceto/animacion_5.png" class="img-responsive center-block">
+        </div>
+        <div class="col-md-6 text-left font-services">
+          <img src="images/discover.png" class="img-responsive">
+          <p class="sp-paragraph">We provide affordable digital marketing and social media services for startups</p>
+          <div class="row text-center help-button">
+            <a class="btn btn-default button" href="#" role="button"><strong>SHOW ME</strong></a>
+          </div>
+        </div>
+    </div>
+    
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
   </body>
 </html>
