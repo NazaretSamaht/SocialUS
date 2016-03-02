@@ -4,8 +4,7 @@ html, body, .viewport
 
 	height: 100%;
 	font-family: 'Raleway', sans-serif;
-	/*font-weight:400;
-	font-style:normal;*/
+	position:relative;
  }
 
  .ra-800{
@@ -39,13 +38,25 @@ html, body, .viewport
 .social{
 	left:0%;
 }
-.us{
+.us, .menu-bar{
 	right: 0%;
 }
-.us, .social{
+.social{
 	top: 30%;
 	z-index:100;
 }
+
+.us{
+	top: 15%;
+	z-index:100;
+}
+
+.menu-bar{
+	top: 40%;
+	z-index:100;
+}
+
+
 
 .button,
 .button:visited,
@@ -191,3 +202,46 @@ html, body, .viewport
 .per-row div{
 	height:100%;
 }
+
+#menu li a i{
+	color:black;
+	opacity:0.7;
+}
+
+#menu li a{
+	padding-top:0%;
+	padding-bottom:0%;
+	padding-left:10%;
+
+}
+
+.tooltip {
+    position: relative;
+
+   /* display: inline-block;*/
+     
+}
+
+.tooltiptext{
+	padding-left:20%;
+}
+
+/*
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}*/
