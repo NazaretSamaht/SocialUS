@@ -37,7 +37,7 @@ $(document).ready(function(){
 	    $(event.target).find('i').removeClass('fa-circle-thin').addClass('fa-circle');
 	});
 
-   $('#menu li a').click(function(){
+    $('#menu li a').click(function(){
    		var id = $(this).attr('href');
 	    $('html, body').animate({
 	        scrollTop: $(id).offset().top
@@ -45,7 +45,14 @@ $(document).ready(function(){
 	    return false;
 	});
 
-   $('#menu li a').tooltip();
+    $('#menu li a').tooltip();
+    $("#menu").on("mouseenter", function(){
+    	$("#menu li a").fadeTo("slow", 1);
+    });
+    $("#menu").on("mouseleave", function(){
+    	$("#menu li a").fadeTo("slow", 0.4);
+    })
+
 
    /*$('#menu li a').on("hover", function(){
    		$("#menu li i").removeClass('fa-circle-thin').addClass('fa-arrow-circle-left');
