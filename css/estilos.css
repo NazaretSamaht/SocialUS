@@ -119,10 +119,16 @@ html, body, .viewport
 
 }
 
+.in-bottom-viewport {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	left: 0;
+}
+
 .arrow-image{
 	width:10%;
 	opacity: 0.15;
-	padding-top: 15%;
 }
 
 .gradiant-bar{
