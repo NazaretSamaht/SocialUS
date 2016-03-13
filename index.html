@@ -26,12 +26,14 @@
     <div class="parent-tooltip"></div>
     <div class=" viewport"> 
       
-      <div class="container viewport middle" id="one">
+      <div class="container viewport middle scrollify" id="home" data-section-name="home">
         <div class="row">
           <div class="col-md-12 ">
             <img src="images/intro-animation-final.gif" class="img-responsive"></br>
-            <img src="images/flechas.gif" class="img-responsive arrow-image center-block">
           </div>
+        </div>
+        <div class="in-bottom-viewport">
+          <img id="arrow" src="images/flechas.gif" class="img-responsive arrow-image center-block cursor-pointer">
         </div>
       </div>
 
@@ -39,28 +41,28 @@
         
       </div>
       
-      <div id="two" class="container viewport middle other-div">
+      <div id="startup-owner" class="container viewport middle other-div scrollify" data-section-name="startup-owner">
         <!--<div class="fixed social hidden">
           <img src="Boceto/iconos_sociales.png" class="img-responsive">
         </div>-->
         <div id="parent-animation">
           <div class="fixed us hidden">
-            <a href="#one" id="mosca"><img src="images/mosca.gif" class="img-responsive logo-us"></a>
+            <a href="#home" id="mosca"><img src="images/mosca.gif" class="img-responsive"></a>
           </div></br>
           <div class="menu-bar fixed text-right hidden">
             
             <div  id="navbar-example">
               <ul class="nav" id="menu">
                
-                <li><a href="#two" class="item-bar">Startup Owner</a></li>
-                <li><a href="#three" class="item-bar">Free Website</a></li>
-                <li><a href="#four" class="item-bar">Services</a></li>
-                <li><a href="#five" class="item-bar">Brand Identity</a></li>
-                <li><a href="#six" class="item-bar">Social Media</a></li>
-                <li><a href="#seven" class="item-bar">Web Design</a></li>
-                <li><a href="#eight" class="item-bar">Startup Package</a></li>
-                <li><a href="#nine" class="item-bar">Why Us</a></li>
-                <li><a href="#eleven" class="item-bar">We can Help you</a></li>
+                <li><a href="#startup-owner" class="item-bar">Startup Owner</a></li>
+                <li><a href="#free-website" class="item-bar">Free Website</a></li>
+                <li><a href="#services" class="item-bar">Services</a></li>
+                <li><a href="#brand-identity" class="item-bar">Brand Identity</a></li>
+                <li><a href="#social-media" class="item-bar">Social Media</a></li>
+                <li><a href="#web-design" class="item-bar">Web Design</a></li>
+                <li><a href="#startup-package" class="item-bar">Startup Package</a></li>
+                <li><a href="#why-us" class="item-bar">Why Us</a></li>
+                <li><a href="#we-can-help-you" class="item-bar">We can Help you</a></li>
                 <!---->
               </ul>  
             </div>
@@ -92,7 +94,7 @@
         </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle center-block" id="three">
+      <div class="container viewport middle center-block scrollify" id="free-website" data-section-name="free-website">
         <div class="col-md-12">
           <div class="get-button">
             <a class="btn btn-default typeform-share button" href="https://gabrieljimenez.typeform.com/to/U3ju3j" data-mode="1" target="_blank"><strong>GET IT NOW</strong></a>
@@ -103,12 +105,12 @@
         </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle font-services" id="four">
+      <div class="container viewport middle font-services scrollify" id="services" data-section-name="services">
         <div class="col-md-4 text-center">
           <div class="row">
-            <a href="#five"><img src="images/brand.gif" class="img-responsive sp-images center-block img-services"></a></br>
+            <a href="#brand-identity"><img src="images/brand.gif" class="img-responsive sp-images center-block img-services"></a></br>
             <p><strong>Brand</strong></br><span class="ra-600">Identity</span></p>
-            <a href="#six"><img src="images/management.gif" class="img-responsive sp-images center-block img-services"></a></br>
+            <a href="#social-media"><img src="images/management.gif" class="img-responsive sp-images center-block img-services"></a></br>
             <p><strong>Social Media</strong></br><span class="ra-600">Management</span></p>
           </div>
         </div>
@@ -117,15 +119,15 @@
         </div>
         <div class="col-md-4 text-center">
           <div class="row">
-            <a href="#seven"><img src="images/web.gif" class="img-responsive sp-images center-block img-services"></a></br>
+            <a href="#web-design"><img src="images/web.gif" class="img-responsive sp-images center-block img-services"></a></br>
             <p><strong>Premium</strong></br><span class="ra-600">Web Design</span></p>
-            <a href="#eight"><img src="images/combo.gif" class="img-responsive sp-images center-block img-services"></a></br>
+            <a href="#startup-package"><img src="images/combo.gif" class="img-responsive sp-images center-block img-services"></a></br>
             <p><strong>Startup Development</strong></br><span class="ra-600">Package</span></p>
           </div>
         </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle animatedParent animateOnce relative" data-appear-top-offset='-250' id="five">
+      <div class="container viewport middle animatedParent animateOnce relative scrollify" data-appear-top-offset='-250' id="brand-identity" data-section-name="brand-identity">
         <div class="col-md-6 center-block">
           <img src="images/brand.gif" class="img-responsive sp-images center-block img-services">
           <div class="row text-center help-button">
@@ -154,7 +156,7 @@
         </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle animatedParent animateOnce" data-appear-top-offset='-250' id="six">
+      <div class="container viewport middle animatedParent animateOnce scrollify" data-appear-top-offset='-250' id="social-media" data-section-name="social-media">
         <div class="col-md-6 center-block">
           <img src="images/management.gif" class="img-responsive sp-images center-block img-services">
           <div class="row text-center help-button">
@@ -178,7 +180,7 @@
         </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle animatedParent animateOnce" data-appear-top-offset='-250' id="seven">
+      <div class="container viewport middle animatedParent animateOnce scrollify" data-appear-top-offset='-250' id="web-design" data-section-name="web-design">
         <div class="col-md-6 center-block">
           <img src="images/web.gif" class="img-responsive sp-images center-block img-services">
           <div class="row text-center help-button">
@@ -204,7 +206,7 @@
         </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport middle animatedParent animateOnce" data-appear-top-offset='-250' id="eight">
+      <div class="container viewport middle animatedParent animateOnce scrollify" data-appear-top-offset='-250' id="startup-package" data-section-name="startup-package">
         <div class="col-md-6 center-block">
           <img src="images/combo.gif" class="img-responsive sp-images center-block img-services">
           <div class="row text-center help-button">
@@ -231,7 +233,7 @@
         </div>
       </div>
       <div class="gradiant-bar"></div>
-      <div class="container viewport font-services" id="nine">
+      <div class="container viewport font-services scrollify" id="why-us" data-section-name="why-us">
         <div class="col-md-12 choose">
           <div class="sp-text">
             <img src="images/choose.png" class="img-responsive">
@@ -262,7 +264,7 @@
       
       
     <div class="gradiant-bar"></div>
-    <div class="container viewport middle" id="eleven">
+    <div class="container viewport middle scrollify" id="we-can-help-you" data-section-name="we-can-help-you">
       <div class="col-md-6 center-block">
           <img src="images/discover.gif" class="img-responsive center-block">
         </div>
@@ -285,6 +287,7 @@
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
 
     <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
     <script src="js/css3-animate-it.js"></script>
     <script src="js/javascript.js"></script>
     

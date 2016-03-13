@@ -51,12 +51,8 @@ html, body, .viewport
 .us{
 	top: 40%;
 	z-index:100;
-	/*right:-32%;*/
-	right: -48%;
-}
-
-.logo-us{
-	width: 20%;
+	width: 12%;
+	right: 0;
 }
 
 .menu-bar{
@@ -118,10 +114,16 @@ html, body, .viewport
 
 }
 
+.in-bottom-viewport {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	left: 0;
+}
+
 .arrow-image{
 	width:10%;
 	opacity: 0.15;
-	padding-top: 15%;
 }
 
 .gradiant-bar{
@@ -268,6 +270,8 @@ html, body, .viewport
 #menu li a:active{
 	background-color: transparent;
 }
+
+.cursor-pointer { cursor: pointer}
 
 
 .item-bar{

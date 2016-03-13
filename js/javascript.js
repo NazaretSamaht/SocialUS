@@ -1,9 +1,19 @@
 $(document).ready(function(){
 
 	$("html").niceScroll({
-		horizrailenabled: false
-		//mousescrollstep: 475
+		horizrailenabled: false,
+		zindex: 999
 	});
+
+	$.scrollify({
+		section: '.scrollify',
+		sectionName : "section-name"
+	});
+
+	$('#arrow').on('click', function(event) {
+		$.scrollify.move(1);
+	});
+
 	$(window).scrollTop(0);
 	var spreveal= {
 		duration: 1000,
@@ -16,7 +26,7 @@ $(document).ready(function(){
 	
 	var win = $(window);
 	  // definir mediente $pos la altura en píxeles desde el borde superior de la ventana del navegador y el elemento
-	var pos = $('#two').offset().top-1;
+	var pos = $('#startup-owner').offset().top-1;
 
 	window.sr = ScrollReveal();
 
