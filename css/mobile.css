@@ -74,20 +74,7 @@ html, body, .viewport
 	padding-bottom:3px;
 }
 
-/*
-.parent-tooltip .tooltip-inner{
-	background-color: transparent; 
-  	color: black; 
-  	border: 0px; 
-  	padding: 5px;
-  	font-size: 1em;
-}
 
-.parent-tooltip .tooltip-arrow {
-      border-left: 0px;
-      background-color: transparent; 
-  }
-*/
 .button,
 .button:visited,
 .button:active,
@@ -279,6 +266,12 @@ html, body, .viewport
 .cursor-pointer { cursor: pointer}
 
 
-.item-bar{
+#website-free,
+#services,
+#brand-identity,
+#social-media,
+#web-design,
+#package{
+	padding-top: 30px;
 
 }
