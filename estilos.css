@@ -204,16 +204,13 @@ html, body, .viewport
 	height:100%;
 }
 
-#menu li a i{
-	color:black;
-	opacity:0.7;
-}
+
 
 #menu li a{
 	padding-top:0%;
 	padding-bottom:0%;
 	padding-right:100%;
-	opacity:0.4;
+	/*opacity:0.4;*/
 }
 
 .tooltip {
@@ -250,6 +247,3 @@ html, body, .viewport
 }*/
 
 /*Animaciones*/
-.edgeLoad-EDGE-9154707 { 
-	visibility:hidden; 
-}

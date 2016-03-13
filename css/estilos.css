@@ -18,7 +18,7 @@ html, body, .viewport
 
  }
 
- .ra-600{
+ #menu li a:hover, .ra-600{
 	font-family: 'Raleway';
 	font-weight: 600;
 	font-style: normal;
@@ -37,7 +37,6 @@ html, body, .viewport
 
 .fixed{
 	position: fixed;/**/
-
 }
 
 	
@@ -249,15 +248,14 @@ html, body, .viewport
 .per-row div{
 	height:100%;
 }
-/**/
-#menu li a i{
-	color:black;
-}
+
+
 
 #menu li a{
 	padding-top:0%;
 	padding-bottom:0%;
-	opacity:0.4;
+	color:black;
+	/*opacity:0.4;*/
 }
 
 #menu li{
@@ -272,3 +270,6 @@ html, body, .viewport
 }
 
 
+.item-bar{
+
+}
