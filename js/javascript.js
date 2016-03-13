@@ -6,7 +6,8 @@ $(document).ready(function(){
 	});
 
 	$.scrollify({
-		section: '.scrollify'
+		section: '.scrollify',
+		sectionName : "section-name"
 	});
 
 	$('#arrow').on('click', function(event) {
@@ -25,7 +26,7 @@ $(document).ready(function(){
 	
 	var win = $(window);
 	  // definir mediente $pos la altura en píxeles desde el borde superior de la ventana del navegador y el elemento
-	var pos = $('#two').offset().top-1;
+	var pos = $('#startup-owner').offset().top-1;
 
 	window.sr = ScrollReveal();
 
