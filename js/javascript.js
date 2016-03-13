@@ -1,9 +1,18 @@
 $(document).ready(function(){
 
 	$("html").niceScroll({
-		horizrailenabled: false
-		//mousescrollstep: 475
+		horizrailenabled: false,
+		zindex: 999
 	});
+
+	$.scrollify({
+		section: '.scrollify'
+	});
+
+	$('#arrow').on('click', function(event) {
+		$.scrollify.move(1);
+	});
+
 	$(window).scrollTop(0);
 	var spreveal= {
 		duration: 1000,
@@ -35,11 +44,11 @@ $(document).ready(function(){
    	});
 
    $("#mosca").on("mouseenter", function(){
-    	$("#menu-bar").animate({top:60%, opacity:'1'},'slow').removeClass('hidden');
+    	$("#menu-bar").animate({top:'60%', opacity:'1'},'slow').removeClass('hidden');
     });
    $("#parent-animation").on("mouseleave", function(){
 
-    	$("#menu-bar").animate({top:40%, opacity:'0'},'slow', function(){
+    	$("#menu-bar").animate({top:'40%', opacity:'0'},'slow', function(){
     		$(this).addClass('hidden');
     	});
     });

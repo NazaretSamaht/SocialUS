@@ -273,4 +273,6 @@ html, body, .viewport
 	background-color: transparent;
 }
 
+.cursor-pointer { cursor: pointer}
+
 
