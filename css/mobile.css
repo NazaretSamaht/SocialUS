@@ -11,6 +11,11 @@ html, body, .viewport
 	position:relative;
  }
 
+.as-viewport,
+.as-viewport .row,
+.as-viewport .col-xs-12,
+.as-viewport .middle { height: 100% }
+
  .ra-800{
 	font-family: 'Raleway';
 	font-weight: 800;
