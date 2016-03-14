@@ -82,7 +82,7 @@ html, body, .viewport
 .button:focus{
 	background-color: #000000;
 	color: #fff;
-	font-size: 20px;
+	font-size: 14px;
 	border-radius: 1.0em;
 	-webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
@@ -101,8 +101,8 @@ html, body, .viewport
 
 .paragraph{
 	padding-left: 2%;
-	font-size: 1.3em;
-	padding-top: 15%;
+	font-size: 0.9em;
+	padding-top: 5%;
 
 }
 
@@ -131,7 +131,7 @@ html, body, .viewport
 }
 
 .help-button{
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 .help-button a{
@@ -164,10 +164,6 @@ html, body, .viewport
 
 .img-services:hover{
 	 box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.font-services{
-	font-size: 1.3em;
 }
 
 .sp-choose{
@@ -227,51 +223,47 @@ html, body, .viewport
 	visibility: hidden;
 }
 
-.hidden{
-	visibility: hidden;
-}
-
-.show{
-	opacity: 1;
-}
-
-.per-row{
-	height:50%;
-}
-
-.per-row div{
-	height:100%;
-}
-
-
-
-#menu li a{
-	padding-top:0%;
-	padding-bottom:0%;
-	color:black;
-	/*opacity:0.4;*/
-}
-
-#menu li{
-	padding-right: 0%;
-}
-
-#menu li a:hover,
-#menu li a:focus,
-#menu li a:visited,
-#menu li a:active{
-	background-color: transparent;
-}
 
 .cursor-pointer { cursor: pointer}
 
 
-#website-free,
+#free-website,
 #services,
 #brand-identity,
 #social-media,
 #web-design,
-#package{
-	padding-top: 30px;
+#startup-package,
+#why-us,
+#we-can-help-you{
+	padding-top: 80px;
+
+}
+
+#startup-owner{
+	width: 85%;
+}
+
+.title-services{
+	font-size: 22px;
+}
+
+.sub-services{
+	font-size: 18px;
+}
+
+.font-services{
+	font-size: 0.9em;
+}
+
+#discover{
+	width: 70%;
+}
+
+#img-discover{
+	width: 70%
+}
+
+#we-can-help-you{
+	padding-bottom: 80px;
 
 }
